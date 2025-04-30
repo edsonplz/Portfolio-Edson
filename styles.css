@@ -53,7 +53,7 @@ p {
 /*Fim do Estilo Geral*/
 .info-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-top: 20px;
 }
@@ -98,7 +98,7 @@ p {
 
 .info-apresentation {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -136,6 +136,7 @@ p {
 
 /*Sobre mim*/
 .info-aboutme p {
+    margin-left: 100px;
     font-size: 18px;
     color: #a7a7a7;
 }
@@ -170,6 +171,7 @@ p {
 }
 
 .card-project {
+    flex: 1;
     min-height: 600px;
     height: fit-content;
     background-color: #363636;
@@ -183,14 +185,19 @@ p {
 }
 
 .info-card-project h3 {
-    color: #ccc;
-    font-size: 27px;
-    font-weight: normal;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
 }
 
 .info-card-project p {
     color: #ccc;
     font-size: 17px;
+}
+
+.legend-project {
+    padding: 20px 0px;
 }
 
 .legend-project p {
@@ -200,11 +207,13 @@ p {
 
 .legend-project span {
     font-weight: bold;
+    color: white;
 }
 
 .footer-project {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 5px;
 }
 
 .url-project,
@@ -216,7 +225,7 @@ p {
 
 .url-project a,
 .code-project a {
-    color: #ccc;
+    color: white;
     font-size: 15px;
 }
 
@@ -279,7 +288,7 @@ p {
     border-radius: 16px;
     border: 1px solid #f10677;
     padding: 25px 28px;
-    height: 370px;
+    height: 400px;
 }
 
 .outline-card-testimonial>p {
@@ -325,7 +334,7 @@ p {
     border-radius: 16px;
     background-color: #f10677;
     padding: 25px 28px;
-    height: 370px;
+    height: 400px;
 }
 
 .fill-in-card-testimonial p {
@@ -462,6 +471,7 @@ footer{
 .menu-footer ul li a:hover {
     color: #e500ce;
 }
+
 
 @media screen and (max-width:1200px) {
     .menu {
