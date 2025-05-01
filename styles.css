@@ -288,7 +288,7 @@ p {
     border-radius: 16px;
     border: 1px solid #f10677;
     padding: 25px 28px;
-    height: 400px;
+    height: auto;
 }
 
 .outline-card-testimonial>p {
@@ -316,6 +316,10 @@ p {
 .info-personal-testimonial {
     display: flex;
     flex-direction: column;
+}
+
+.info-personal-testimonial a {
+    text-decoration: none;
 }
 
 .name-testimonial {
