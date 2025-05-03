@@ -62,7 +62,7 @@ window.addEventListener("resize", showCards);
 
 document.addEventListener("DOMContentLoaded", function() {
     const form = document.querySelector("form");
-    const sucessMessage = document.getElementById("sucess-message");
+    const sucessMessage = document.getElementById("success-message");
     const errorMessage = document.getElementById("error-message");
     const loading = document.getElementById("loading");
 
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const data = {
             to: "edson.silva@dcx.ufpb.br",
-            from: "edsonpll@hotmail.com",
+            from: `<${email}>`,
             subject: "Contato do Site",
             text: "Contato do Site",
             html: `<p>Nome: ${nome}</p><br/><p>Email: ${email}</p><br/><p>Assunto: ${assunto}</p><br/><p>Mensagem: ${mensagem}</p>`,
