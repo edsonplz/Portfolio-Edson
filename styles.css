@@ -276,7 +276,7 @@ p {
     cursor: pointer;
 }
 
-.disable {
+.disabled {
     opacity: 0.8;
     pointer-events: none;
     background-color: #f2f2f2;
@@ -338,7 +338,7 @@ p {
     border-radius: 16px;
     background-color: #f10677;
     padding: 25px 28px;
-    height: 400px;
+    height: auto;
 }
 
 .fill-in-card-testimonial p {
@@ -358,7 +358,7 @@ p {
 .fill-in-card-testimonial .ocuppation-testimonial {
     font-size: 18px;
     font-weight: bold;
-    color: #fff;
+    color: #7B4AE280;
 }
 
 /*Estilo de Contatos*/

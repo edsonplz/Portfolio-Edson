@@ -80,14 +80,14 @@ document.addEventListener("DOMContentLoaded", function() {
         loading.style.display = "block";
 
         const data = {
-            to: "crafte170@gmail.com",
+            to: "edson.silva@dcx.ufpb.br",
             from: "edsonpll@hotmail.com",
             subject: "Contato do Site",
             text: "Contato do Site",
             html: `<p>Nome: ${nome}</p><br/><p>Email: ${email}</p><br/><p>Assunto: ${assunto}</p><br/><p>Mensagem: ${mensagem}</p>`,
         };
 
-        fetch("https://nodemailer-edson.onrender.com/send-email", {
+        fetch("https://api-mail-gun-9eo3.onrender.com/send-email", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
