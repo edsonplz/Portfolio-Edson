@@ -165,13 +165,13 @@ p {
 
 /*Projetos*/
 .info-projects {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*3 colunas de largura igual*/
     gap: 30px;
     margin-top: 50px;
 }
 
 .card-project {
-    flex: 1;
     min-height: 600px;
     height: fit-content;
     background-color: #363636;
